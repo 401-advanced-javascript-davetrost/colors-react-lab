@@ -1,27 +1,8 @@
-import React, { Component } from 'react';
-import ColorDisplay from './colors/ColorDisplay';
-import ColorPicker from './colors/ColorPicker';
+import React from 'react';
+import ColorContainer from './colors/ColorContainer';
 
-export default class App extends Component {
-  state = {
-    backgroundColor: 'black'
-  };
+const App = () => (
+  <ColorContainer />
+);
 
-  selectColor = backgroundColor => {
-    this.setState({ backgroundColor })
-  }
-
-  render() {
-    const { backgroundColor } = this.state;
-    const colors = ['red', 'green', 'black', 'yellow'];
-
-    return (
-      <>
-        <ColorDisplay backgroundColor={backgroundColor} />
-        <ColorPicker
-          selectColor={this.selectColor}
-          colors={colors} />
-      </>
-    )
-  }
-}
+export default App;
