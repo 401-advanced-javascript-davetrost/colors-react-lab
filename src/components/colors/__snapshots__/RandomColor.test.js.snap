@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Random Color component renders a ColorCircle component 1`] = `
+<ColorCircle
+  backgroundColor="black"
+  backgroundImage=""
+/>
+`;

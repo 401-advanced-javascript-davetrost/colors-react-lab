@@ -1,6 +1,12 @@
 import React from 'react';
+import ColorContainer from './colors/ColorContainer';
+import RandomColor from './colors/RandomColor';
 
-export default function App() {
-  return <h1>Hello World</h1>;
-}
-  
+const App = () => (
+  <>
+    <ColorContainer />
+    <RandomColor />
+  </>
+);
+
+export default App;
