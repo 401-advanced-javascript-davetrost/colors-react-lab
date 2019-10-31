@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Color Display component renders a box with black background color 1`] = `
+<div
+  style={
+    Object {
+      "backgroundColor": "black",
+      "height": "100px",
+      "width": "100px",
+    }
+  }
+/>
+`;
